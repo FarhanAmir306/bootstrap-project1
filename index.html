@@ -20,9 +20,9 @@
   .vl {
     border-left: 2px solid rgb(94, 85, 91);
     height: 3110px;
-    position: absolute; /* Changed from absolute to relative */
+    position: absolute; 
     left: 48%;
-     /* Used transform for centering */
+   
     top: 0;
 }
 
@@ -30,7 +30,7 @@
     position: absolute;
     left: -8px;
     color: #dd3131;
-   /* Adjust as needed to center the circles on the line */
+   
 }
 
 .vl span:nth-child(1) {
@@ -53,6 +53,17 @@
     top: 100%;
     margin-top:-10px;
 }
+
+@media (max-width: 576px) { 
+    .line{
+    display:none;
+}
+
+ }
+
+
+
+
 
 
 </style>
@@ -114,7 +125,7 @@
     <div class="logo_section bg_color_white container" style="margin-top: 100px;">
         <div class="">
             <h4 class="text-center">To  provide Students with the best solution, we are in collaboration with</h4>
-            <div class="d-flex justify-content-between align-items-center gap-3 mt-5">
+            <div class="d-flex flex-wrap justify-content-between align-items-center gap-3 mt-5">
                 <img src="./image/Google.png" alt="">
                 <img src="./image/Work & Pensions.png" alt="">
                 <img src="./image/AWS.png" alt="">
@@ -133,7 +144,7 @@
                 <hr class="border-3">
             </div>
         </div>
-        <div class="d-flex justify-content-between align-items-center ">
+        <div class="d-flex flex-wrap justify-content-between align-items-center ">
             <div>
                 <h1>87%</h1>
                 <small class="text-danger">Employee</small>
@@ -164,56 +175,57 @@
         </div>
     </div>
 
-    <div class="fifth_section container mt-5 position-relative">
-        <div class="vl d-flex flex-column justify-content-between ">
-            <span><i class="fa-solid fa-circle"></i></span> 
-            <span><i class="fa-solid fa-circle"></i></span> 
-            <span><i class="fa-solid fa-circle"></i></span> 
-            <span><i class="fa-solid fa-circle"></i></span> 
+    <div class="fifth_section  container mt-5 position-relative">
+        <div class="line">
+            <div class="vl d-flex flex-column justify-content-between ">
+                <span><i class="fa-solid fa-circle"></i></span> 
+                <span><i class="fa-solid fa-circle"></i></span> 
+                <span><i class="fa-solid fa-circle"></i></span> 
+                <span><i class="fa-solid fa-circle"></i></span> 
+            </div>
         </div>
+       
 
         <div class="row align-items-center gy-5 gx-5">
-            <div class="col-6">
+            <div class="col-lg-6 col-sm-12">
                 <h1>Discover Your Skills</h1>
                 <p>Uncover skills developed through your  life and work experiences. 
                 </p>
                 <button class="btn btn-danger">Learn More</button>
             </div>
            
-            <div class="col-6">
+            <div class="col-lg-6 col-sm-12">
                 <img src="./image/Discover Your Skills Photo.png" alt="">
             </div>
         
        
        
-            <div class="col-6 ">
+            <div class="col-lg-6 col-sm-12">
                 <img class="w-75" src="./image/Group 238901.png" alt="">
             </div>
-            <div class="col-6">
+            <div class="col-lg-6 col-sm-12">
                 <h1>Discover Your Skills</h1>
                 <p>Uncover skills developed through your  life and work experiences. 
                 </p>
                 <button class="btn btn-danger">Register</button>
             </div>
 
-       
 
-
-            <div class="col-6">
+            <div class="col-lg-6 col-sm-12">
                 <h1>Discover Your Skills</h1>
                 <p>Uncover skills developed through your  life and work experiences. 
                 </p>
                 <button class="btn btn-danger">Learn More</button>
             </div>
-            <div class="col-6">
+            <div class="col-lg-6 col-sm-12">
                 <img src="./image/Upskill Yourself Photo Content.png" alt="">
             </div>
 
     
-            <div class="col-6">
+            <div class="col-lg-6 col-sm-12">
                 <img class="w-75" src="./image/Collobarte & Interact Photo content.png" alt="">
             </div>
-            <div class="col-6">
+            <div class="col-lg-6 col-sm-12">
                 <h1>Widen Your Network</h1>
                 <p>Uncover skills developed through your  life and work experiences. 
                 </p>
@@ -221,21 +233,21 @@
            </div>
 
        
-            <div class="col-6">
+            <div class="col-lg-6 col-sm-12">
                 <h1>Tailor-made CV</h1>
                 <p>Curate your CV personalised to your  Ideal Job Role. <br>Interested? 
                 </p>
            </div>
-            <div class="col-6">
+            <div class="col-lg-6 col-sm-12">
                 <img src="./image/Group 238903.png" alt="">
             </div>
 
 
            
-            <div class="col-6">
+            <div class="col-lg-6 col-sm-12">
                 <img class="w-75" src="./image/Group 238903.png" alt="">
             </div>
-            <div class="col-6 ">
+            <div class="col-lg-6 col-sm-12 ">
                 <h1>Land Your Career </h1>
                 <p>Bringing  bespoke job opportunties based on your set of skills. <br>Interested?
                 </p>
@@ -257,7 +269,7 @@
 
 
         <div class="card_section mt-5">
-            <div class="d-flex justify-content-center align-items-center gap-5">
+            <div class="d-flex flex-wrap justify-content-center align-items-center gap-5">
 
                 <div class="card" style="width: 18rem;">
                     <div class="card-body">
@@ -305,7 +317,7 @@
     </div>
 
     <footer class="container bg_color_white" style="margin-top: 120px;">
-        <div class="d-flex justify-content-between align-items-start">
+        <div class="d-flex flex-wrap justify-content-between align-items-start">
             <div>
                 <img src="./image/c4u full logo_2022 1.png" alt="">
                 <p>Level9</p>
@@ -350,13 +362,3 @@
 </html>
 
 
-<!-- & .vl{
-    border-left: 1px solid transparent;
-    height:710px;
-    background-color: rgb(21, 23, 23);
-    position: absolute;
-    left: 50%;
-    top:0px;
-    z-index: 1;
-}
-} -->
